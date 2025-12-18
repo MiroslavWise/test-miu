@@ -3,5 +3,4 @@ export interface INavigateButton {
   value: string
 }
 
-
 export type TTypeValueCard = "card" | "contract"
