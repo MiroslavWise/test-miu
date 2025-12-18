@@ -30,4 +30,4 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_TEST_MIU }}
           channelId: live
-          projectId: test-miu
+          projectId: text-miu
