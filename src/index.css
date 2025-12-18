@@ -14,6 +14,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  font-family: SFProText, sans-serif;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -75,4 +79,25 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: SFProText;
+  src: url("/fonts/SFProText-Bold.ttf");
+}
+@font-face {
+  font-weight: 600;
+  font-family: SFProText;
+  src: url("/fonts/SFProText-Semibold.ttf");
+}
+@font-face {
+  font-weight: 400;
+  font-family: SFProText;
+  src: url("/fonts/SFProText-Regular.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: SFProText;
+  src: url("/fonts/SFProText-Medium.ttf");
 }
